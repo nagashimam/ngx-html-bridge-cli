@@ -19,7 +19,7 @@
   "license": "ISC",
   "dependencies": {
     "commander": "^14.0.0",
-    "ngx-html-bridge": "^0.0.18"
+    "ngx-html-bridge": "^0.0.19"
   },
   "devDependencies": {
     "@types/node": "^24.3.0",
