@@ -1,0 +1,28 @@
+{
+  "name": "ngx-html-bridge-cli",
+  "version": "0.0.1",
+  "description": "CLI tool for ngx-html-bridge",
+  "main": "dist/index.js",
+  "bin": {
+    "html-bridge": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ngx-html-bridge",
+    "cli"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^14.0.0",
+    "ngx-html-bridge": "^0.0.17"
+  },
+  "devDependencies": {
+    "@types/node": "^24.3.0",
+    "typescript": "^5.9.2"
+  }
+}
