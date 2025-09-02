@@ -1,5 +1,6 @@
 {
   "name": "ngx-html-bridge-cli",
+  "type": "module",
   "version": "0.0.2",
   "description": "CLI tool for ngx-html-bridge",
   "main": "dist/index.js",
@@ -19,7 +20,7 @@
   "license": "ISC",
   "dependencies": {
     "commander": "^14.0.0",
-    "ngx-html-bridge": "^0.0.19"
+    "ngx-html-bridge": "^0.0.21"
   },
   "devDependencies": {
     "@types/node": "^24.3.0",
